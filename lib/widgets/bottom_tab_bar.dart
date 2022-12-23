@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ionicons/ionicons.dart';
 
 class BottomTabBar extends StatefulWidget {
   const BottomTabBar({Key? key}) : super(key: key);
@@ -18,18 +19,22 @@ class _BottomTabBarState extends State<BottomTabBar> {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-          backgroundColor: Colors.blue,
+          // backgroundColor: Colors.blue,
           items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home_outlined,), label: 'Home'),
-        BottomNavigationBarItem(icon: Icon(Icons.interests_outlined,), label: 'Categories'),
-        BottomNavigationBarItem(icon: Icon(Icons.notifications_none_rounded,), label: 'Notifications'),
-        BottomNavigationBarItem(icon: Icon(Icons.account_circle_outlined,), label: 'Account'),
-        BottomNavigationBarItem(icon: Icon(Icons.shopping_cart_outlined,), label: 'Cart'),
+        BottomNavigationBarItem(icon: Icon(Ionicons.home_outline, size: 22, ), label: 'Home'),
+        BottomNavigationBarItem(icon: Icon(Ionicons.grid_outline, size: 22,), label: 'Categories'),
+        BottomNavigationBarItem(icon: Icon(Ionicons.notifications_outline,size: 22,), label: 'Notifications'),
+        BottomNavigationBarItem(icon: Icon(Icons.account_circle_outlined,size: 25,), label: 'Account'),
+        BottomNavigationBarItem(icon: Icon(Ionicons.cart_outline,size: 27,), label: 'Cart'),
       ],
+      // type: ,
       currentIndex: _selectedIndex,
       selectedItemColor: Theme.of(context).colorScheme.primary,
+      selectedFontSize: 10,
       unselectedItemColor: Colors.grey,
       showUnselectedLabels: true,
+      unselectedFontSize: 10,
+      type: BottomNavigationBarType.fixed,
       onTap: _onItemTapped,
     );
   }

@@ -6,6 +6,7 @@ List topBar = [
 ];
 
 List horizontalListData=[
+  Images(title: 'Alia Bhutt Sale is live!', imageUrl: 'https://pbs.twimg.com/media/FkB6-h5agAAJBGs.jpg'),
   Images(title: 'Alia Bhutt Sale is live!', imageUrl: 'https://img.paisawapas.com/ovz3vew9pw/2020/04/03195539/flipkart-offers.jpg'),
   Images(title: 'image2', imageUrl: 'https://couponswala.com/blog/wp-content/uploads/2021/09/Flipkart-Big-Billion-Days-Sale-2022.jpg'),
   Images(title: 'image3', imageUrl: 'https://hungamadeal.co.in/wp-content/uploads/2016/06/flipkart-offer-9.jpg'),
@@ -15,11 +16,11 @@ List horizontalListData=[
 ];
 
 List circularImages_1 = [
-  Images(title: 'Offers', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/178cf5a874cd697a.png?q=100'),
+  Images(title: 'Top Offers', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/178cf5a874cd697a.png?q=100'),
   Images(title: 'Mobiles & more', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/e2268d56d09df684.png?q=100'),
-  Images(title: 'Electronics', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/6e3e1efa83bc56c3.png?q=100'),
+  Images(title: 'Electronics & Accessories', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/6e3e1efa83bc56c3.png?q=100'),
   Images(title: 'TV & Appliances', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/b3e1225e6bda1c9e.png?q=100'),
-  Images(title: 'Beauty, Food, Toys & Sports', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/5f09b2d254acb48a.png?q=100'),
+  Images(title: 'Beauty, Food, Toys, Sports', imageUrl: 'https://rukminim1.flixcart.com/fk-p-flap/128/128/image/5f09b2d254acb48a.png?q=100'),
 ];
 
 List circularImages_2 = [
@@ -31,9 +32,9 @@ List circularImages_2 = [
 ];
 
 List smallRectangularCard_1 = [
-  Images(title: 'Ethnic Wears \n From 1999/-', imageUrl: 'https://rukminim1.flixcart.com/image/200/200/ki7qw7k0-0/sari/z/u/2/free-esa3003ssr1-new-shavya-unstitched-original-imafyfyujuud2cz9.jpeg?q=70'),
-  Images(title: 'HRX shoes \n From 1599/-', imageUrl: 'https://rukminim1.flixcart.com/image/200/200/kovsvbk0/shoe/3/w/x/6-13798970-hrx-by-hrithik-roshan-black-original-imag38jzgtjrhsnh.jpeg?q=70'),
-  Images(title: 'Oppo Reno 7 \n From 10,999/-', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-uYJ44SuiHOL_UPakRYewLoTAa5PGjNo0tg&usqp=CAU'),
+  Images(title: 'Ethnic Wears', description: 'From 1999/-', imageUrl: 'https://rukminim1.flixcart.com/image/200/200/ki7qw7k0-0/sari/z/u/2/free-esa3003ssr1-new-shavya-unstitched-original-imafyfyujuud2cz9.jpeg?q=70'),
+  Images(title: 'HRX shoes', description: 'From 1599/-', imageUrl: 'https://rukminim1.flixcart.com/image/200/200/kovsvbk0/shoe/3/w/x/6-13798970-hrx-by-hrithik-roshan-black-original-imag38jzgtjrhsnh.jpeg?q=70'),
+  Images(title: 'Oppo Reno 7', description: 'From 10,999/-', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-uYJ44SuiHOL_UPakRYewLoTAa5PGjNo0tg&usqp=CAU'),
 ];
 
 List smallRectangularCard_2 = [
@@ -53,6 +54,11 @@ List bigRectangularCard_2 = [
   Images(title: 'Top Deals on HandBags', description: 'Lavies, Caprese, Baggit, Luis Vuitton and more...', imageUrl: 'https://pa.namshicdn.com/product/12/0LJ71400PM/v5/1-zoom-desktop.jpg'),
 ];
 
+List bigRectangularCard_3 = [
+  Images(title: 'Wireless Mouse', description: 'Flipkart SmartBuy V8 Wireless Optical Mouse', imageUrl: 'https://rukminim1.flixcart.com/image/612/612/krme93k0/mouse/k/p/r/v8-flipkart-smartbuy-original-imag5d8qypgdj7ux.jpeg?q=70'),
+  Images(title: 'Top Mirror less Cameras', description: 'Canon, Sony, Fujifilm, Nikon and more...', imageUrl: 'https://rukminim1.flixcart.com/image/200/200/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70'),
+];
+
 List sponsored = [
   Images(title: 'Up to 80% Off', imageUrl: 'https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/12/05104855/1669975836.Virat-Kohli-noise.jpg'),
   Images(title: 'From 2,499/-', imageUrl: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/files/About_us_banner.png?v=1620112113'),
@@ -64,11 +70,12 @@ List sponsored = [
 
 List imageData=[
 
-  Images(title: 'Boat Smart Watches', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptwM8HFsDNKvZqdqbCB5UQUTaEHHMr5_95Q&usqp=CAU'),
+  Images(title: 'BIG RECTANGULAR IMAGES PURPLE BACKGROUND IMAGE', imageUrl: 'https://i.pngimg.me/thumb/f/720/comrawpixel2664109.jpg'),
   Images(title: 'Wireless earbuds', imageUrl: 'https://rukminim1.flixcart.com/image/200/200/l572ufk0/headphone/x/o/p/air-3-neo-realme-original-imagfxcbkt8rmqbg.jpeg?q=70'),
   Images(title: 'Grab 1rupee deals', imageUrl: 'https://rukminim1.flixcart.com/flap/128/128/image/50474c.jpg?q=100'),
   Images(title: 'Purple Background image', imageUrl: 'https://wallpaperaccess.com/full/270156.jpg'),
   Images(title: 'purple background image 2', imageUrl: 'https://i.pngimg.me/thumb/f/720/comrawpixel2664109.jpg'),
+  Images(title: 'purple white background', imageUrl: 'https://images.wallpaperscraft.com/image/single/purple_blue_white_spot_65576_240x320.jpg'),
   Images(title: 'fligts offers', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1uaWt9QrBbuQdMKjKL2RUQ26eyk1WNf6w0A&usqp=CAU'),
-  Images(title: '', imageUrl: '')
+  Images(title: 'MS Dhoni FIREbOALT', imageUrl: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/0f6fdd4e-707e-4403-a032-1ee631a27f31.__CR0,0,1464,600_PT0_SX1464_V1___.jpg')
 ];

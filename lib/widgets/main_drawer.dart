@@ -11,10 +11,6 @@ class MainDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // MediaQueryData queryData;
-    // queryData = MediaQuery.of(context);
-
-
     return SingleChildScrollView(
       child: Column(
         children: [
@@ -46,7 +42,7 @@ class MainDrawer extends StatelessWidget {
             onTap: (){
               Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_){
                 print('working');
-                return FlipkartHomePageAppbar();
+                return const FlipkartHomePageAppbar();
               }));}, //connect this to home page
           ),
           Column(
@@ -57,16 +53,20 @@ class MainDrawer extends StatelessWidget {
             color: Colors.grey,
           ),
           ListTile(
-            title: Text('Notification Preferences',style: TextStyle(color: Colors.grey.shade700),),
+            visualDensity: VisualDensity.compact,
+            title: Text('Notification Preferences',style: TextStyle(color: Colors.grey.shade700, fontWeight: FontWeight.w400),),
           ),
           ListTile(
-            title: Text('Help Center', style: TextStyle(color: Colors.grey.shade700),),
+            visualDensity: VisualDensity.compact,
+            title: Text('Help Center', style: TextStyle(color: Colors.grey.shade700, fontWeight: FontWeight.w400),),
           ),
           ListTile(
-            title: Text('Privacy Policy', style: TextStyle(color: Colors.grey.shade700),),
+            visualDensity: VisualDensity.compact,
+            title: Text('Privacy Policy', style: TextStyle(color: Colors.grey.shade700, fontWeight: FontWeight.w400),),
       ),
           ListTile(
-            title: Text('Legal', style: TextStyle(color: Colors.grey.shade700),),
+            visualDensity: VisualDensity.compact,
+            title: Text('Legal', style: TextStyle(color: Colors.grey.shade700, fontWeight: FontWeight.w400),),
       )
         ],
       ),
